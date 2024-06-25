@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Nav-Bar */
+nav {
+    background-color: #000814;
+    text-align: center;
+    padding: 25px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+nav li {
+    display: inline
+}
+
+nav a {
+    color: #d6d6d6;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 25px;
+    font-family: "Actor", sans-serif;
+}
+
+nav a:hover {
+    background-color: #d6d6d6;
+    color: #333533;
+}
+
+/* Home-Page */
+#Home {
+    text-align: center;
+    padding: 210px 20px;
+    background-color: #333533;
+}
+
+.subtitle,
+.description {
+    color: #d6d6d6;
+}
+
+.main-title {
+    font-size: 6vw;
+    font-family: "Fira Sans Condensed", sans-serif;
+    color: #fcf300;
+}
+
+.subtitle {
+    font-size: 2vw;
+    font-family: "Actor", sans-serif;
+    padding-top: 8px;
+}
+
+.description {
+    font-size: 1vw;
+    font-family: "Actor", sans-serif;
+    padding-top: 8px;
+}
+
+.main-title,
+.subtitle,
+.description {
+    text-align: left;
+    padding-left: 50px;
+}
+
+/* Skill-Section */
+#skills {
+    padding: 80px 20px;
+    background-color: #202020;
+}
+
+.skillDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.skill_title {
+    font-size: 4vw;
+    font-family: "Fira Sans Condensed", sans-serif;
+    color: #fcf300;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.iconDiv {
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+}
+
+.iconDiv div {
+    display: flex;
+    justify-content: center;
+}
+
+.skill_Icon {
+    font-size: 60px;
+    color: #d6d6d6;
+}
+
+.skill_Icon:hover {
+    color: #fcf300;
+}
+
+
+/* Certification-Section */
+#certifications {
+    padding: 110px 20px;
+    background-color: #2d2a32;
+}
+
+.certificationDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.certificatio_title {
+    font-size: 4vw;
+    font-family: "Fira Sans Condensed", sans-serif;
+    color: #fcf300;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.CertificatesImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.CertificatesImg div {
+    display: flex;
+    justify-content: center;
+}
+
+.CertificatesImg img {
+    height: 230px;
+    width: 280px;
+}
+
+.CertificatesImg img:hover {
+    transform: scale(1.05);
+}
+
+
+/* Contact-Fixed-Bar */
+#Contact {
+    text-align: right;
+    padding: 50px;
+    background-color: #000;
+}
+
+.icons {
+    font-size: 30px;
+    color: #d6d6d6;
+    padding: 15px;
+}
+
+.icons:hover {
+    color: #fcf300;
+}
+
+#Contact {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000814;
+    border-radius: 25px;
+    padding: 8px;
+}
+
+#Contact a {
+    margin-right: auto;
+}
+
+#Contact i {
+    font-size: 24px;
+}
